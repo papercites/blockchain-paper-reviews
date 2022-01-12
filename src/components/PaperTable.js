@@ -29,13 +29,13 @@ class PaperTable extends React.Component {
     }
     componentDidMount() {
         const _this=this;
-        Axios.get(this.state.publicPath + 'resources/papers.yml').then(response => {
+        Axios.get(this.state.publicPath + 'resources/allpapers.yml').then(response => {
             let len = response.data.length
             const allpapers = yaml.load(response.data)
-            for(let i=0;i<allpapers.length;i++){
+            for(let i=0;i<len;i++){
                 allpapers[i].key = i;
             }
-            this.setState(
+            _this.setState(
                 {
                     dataSource: allpapers
                 },
