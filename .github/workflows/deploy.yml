@@ -53,7 +53,7 @@ jobs:
         git config --global user.name "0x4f5da2"
     - name: Deploy
       run: |
-        cd dist
+        cd build
         git init
         git add --all
         git commit -m "Site Update:`TZ=':Asia/Shanghai' date +' %Y-%m-%d %H:%m:%S'`"
