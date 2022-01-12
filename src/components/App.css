@@ -1,0 +1,9 @@
+.App {
+  font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
