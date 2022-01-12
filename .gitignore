@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-dist
+build
 public/resources
 
 # local env files
