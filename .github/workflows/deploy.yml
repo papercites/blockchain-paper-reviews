@@ -29,7 +29,7 @@ jobs:
     - name: Assemble yml files
       run: |
         mkdir -p public/resources && cd public/resources
-        awk 1 `find ../../papers -name '*.yml' -not -path '**/types.yml' -not -path '**/tags.yml` > allpapers.yml
+        awk 1 `find ../../papers -name '*.yml' -not -path '**/types.yml' -not -path '**/tags.yml'` > allpapers.yml
         cp ../../papers/types.yml .
         cp ../../papers/tags.yml .
         cd ../..
