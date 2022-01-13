@@ -5,7 +5,7 @@
  
 - name_cn:"共识"
   name_en:"consensus"
-  tag: cons
+  tag: consensus
  
 - name_cn:"存储"
   name_en:"storage"
