@@ -1,4 +1,17 @@
 ---
-- name_cn:
-  name_en:
-  tag: DS
+- name_cn:"执行"
+  name_en:"execution"
+  tag: exec
+ 
+- name_cn:"共识"
+  name_en:"consensus"
+  tag: cons
+ 
+- name_cn:"存储"
+  name_en:"storage"
+  tag: storage
+ 
+- name_cn:"查询"
+  name_en:"query"
+  tag: query
+ 
