@@ -1,17 +1,19 @@
 ---
-- name_cn:"执行"
-  name_en:"execution"
-  tag: exec
+- name_cn: 区块链性能
+  name_en: Blockchain Performance
+  tag: performance
+  subtag: sharding, consensus, execution, storage, query
  
-- name_cn:"共识"
-  name_en:"consensus"
-  tag: consensus
+- name_cn: 区块链安全
+  name_en: Blockchain Security
+  tag: security
+  subtag: smart contract, privacy protection
  
-- name_cn:"存储"
-  name_en:"storage"
-  tag: storage
+- name_cn: 区块链分析
+  name_en: Blockchain Analysis
+  tag: analysis
  
-- name_cn:"查询"
-  name_en:"query"
-  tag: query
+- name_cn: 区块链应用
+  name_en: Blockchain Application
+  tag: application
  

@@ -1,6 +1,8 @@
 # ATC
 - title: 'RainBlock: Faster Transaction Processing in Public Blockchains.'
   authors: Soujanya Ponnapalli, Aashaka Shah, Souvik Banerjee, Dahlia Malkhi, Amy Tai, Vijay Chidambaram, Michael Wei
+  conf: ATC
   year: 2021
   url: https://www.usenix.org/conference/atc21/presentation/ponnapalli
-  tag: ''
+  tag: 'performance'
+  subtag: ['storage']

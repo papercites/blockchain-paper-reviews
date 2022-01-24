@@ -1,6 +1,16 @@
 # SIGMOD
+- title: 'A Byzantine Fault Tolerant Storage for Permissioned Blockchain.'
+  authors: Xiaodong Qi, Zhihao Chen, Zhao Zhang, Cheqing Jin, Aoying Zhou, Haizhen Zhuo, Quangqing Xu
+  conf: SIGMOD
+  year: 2021
+  url: https://dl.acm.org/doi/10.1145/3448016.3452744
+  tag: 'performance'
+  subtag: ['storage']
+
 - title: 'SharPer: Sharding Permissioned Blockchains Over Network Clusters.'
   authors: Mohammad Javad Amiri, Divyakant Agrawal, Amr El Abbadi
+  conf: SIGMOD
   year: 2021
   url: https://dl.acm.org/doi/10.1145/3448016.3452807
-  tag: ''
+  tag: 'performance'
+  subtag: ['sharding']
